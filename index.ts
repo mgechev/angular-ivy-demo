@@ -37,8 +37,9 @@ class CapitalizePipe {
   directives: [ChildComponent],
   pipes: [CapitalizePipe]
 })
-class HelloWorld {
+class AppComponent {
   label = 'hello world';
 }
 
-renderComponent(HelloWorld);
+renderComponent(AppComponent);
+
