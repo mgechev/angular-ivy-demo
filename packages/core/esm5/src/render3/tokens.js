@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/** *
+ * A special value which designates that a value has not changed.
+  @type {?} */
+export var NO_CHANGE = /** @type {?} */ ({});
+//# sourceMappingURL=tokens.js.map
