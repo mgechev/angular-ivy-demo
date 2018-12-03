@@ -1,0 +1,25 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "file:../angular/dist/packages-dist/common",
+    "@angular/compiler": "file:../angular/dist/packages-dist/compiler",
+    "@angular/core": "file:../angular/dist/packages-dist/core",
+    "@angular/platform-browser": "file:../angular/dist/packages-dist/platform-browser",
+    "@angular/platform-browser-dynamic": "file:../angular/dist/packages-dist/platform-browser-dynamic",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.3.3",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "parcel": "^1.10.3",
+    "typescript": "^3.2.1"
+  }
+}
