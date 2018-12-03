@@ -32,7 +32,7 @@ Try to create a "Hello, World!" application by:
 <!DOCTYPE html>
 <html lang="en">
 <body>
-    <app-cmp></app-cmp>
+    <app></app>
     <script src="compiler.umd.js"></script>
     <script src="hello-world.ts"></script>
 </body>

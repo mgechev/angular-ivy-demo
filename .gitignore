@@ -1,4 +1,6 @@
 .cache
 dist
 node_modules
+hello-world.html
+hello-world.ts
 
