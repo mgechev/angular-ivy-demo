@@ -12,7 +12,7 @@ The entire application is within `index.html` and `index.ts`. The `index.ts` fil
 - **There are no zones**
 - We don't use rxjs explicitly
 
-This already reduces the learning curve dramatically by cutting three of the most misunderstood concepts in Angular.
+This already reduces the learning curve dramatically by cutting three of the most misunderstood concepts in Angular. **Keep in mind that Ivy does not deprecate NgModules and zones, they'll keep function the way they do today. The only difference is that with the new rendering they become optional**.
 
 ## Usage
 
