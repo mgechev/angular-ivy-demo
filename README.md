@@ -2,6 +2,8 @@
 
 This repository demonstrates simplified API for using Angular enabled by ivy.
 
+**Disclaimer**: the APIs below are highly experimental and likely to change. The produced bundle by parcel is not tree-shaked, which means that it'll be significant bigger than what Angular CLI will produce once Ivy is officially released.
+
 ## Overview
 
 The entire application is within `index.html` and `index.ts`. The `index.ts` file contains two components and a pipe. There are two important points to notice:
