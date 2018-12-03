@@ -24,6 +24,42 @@ npm start
 
 Now open http://localhost:1234.
 
+Try to create a "Hello, World!" application by:
+
+* Create a file called `hello-world.html` with the following content:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <app-cmp></app-cmp>
+    <script src="compiler.umd.js"></script>
+    <script src="hello-world.ts"></script>
+</body>
+</html>
+```
+
+* Create a file called `hello-world.ts` with the following content:
+
+```typescript
+import {Component, ɵrenderComponent as renderComponent} from '@angular/core';
+
+@Component({
+  selector: 'app',
+  template: 'Hello, World!'
+})
+class AppComponent {}
+
+renderComponent(AppComponent);
+```
+
+* Run the following command:
+
+```
+./node_modules/.bin/parcel hello-world.html
+```
+
 ## License
 
 MIT
+
