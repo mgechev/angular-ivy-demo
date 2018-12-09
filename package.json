@@ -9,7 +9,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@angular/core": "file:./packages/core",
+    "@angular/core": "./angular-core.tgz",
+    "@angular/compiler": "./angular-compiler.tgz",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.3.3",
     "zone.js": "^0.8.26"

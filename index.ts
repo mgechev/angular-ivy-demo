@@ -1,4 +1,5 @@
 import {Component, Input, ɵrenderComponent as renderComponent, Pipe, ɵmarkDirty as markDirty} from '@angular/core';
+import '@angular/compiler';
 
 @Component({
   selector: 'zippy',
@@ -34,8 +35,7 @@ class CapitalizePipe {
 @Component({
   selector: 'app-cmp',
   template: '<zippy title="Toggle">{{ label | capitalize }}</zippy>',
-  directives: [ChildComponent],
-  pipes: [CapitalizePipe]
+  deps: [ChildComponent, CapitalizePipe]
 })
 class AppComponent {
   label = 'hello world';
