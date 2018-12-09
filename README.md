@@ -35,7 +35,6 @@ Try to create a "Hello, World!" application by:
 <html lang="en">
 <body>
     <app></app>
-    <script src="compiler.umd.js"></script>
     <script src="hello-world.ts"></script>
 </body>
 </html>
@@ -45,6 +44,7 @@ Try to create a "Hello, World!" application by:
 
 ```typescript
 import {Component, ɵrenderComponent as renderComponent} from '@angular/core';
+import '@angular/compiler';
 
 @Component({
   selector: 'app',
